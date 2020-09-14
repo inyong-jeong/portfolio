@@ -28,7 +28,6 @@
       <i class="fab fa-diaspora"></i>
       <a href="#">inyong</a>   
     </div>
-    <div class="navbar__menu">
       <ul class="navbar__menu">
         <li class="navbar__menu__item active" data-link = "#home">Home</li>
         <li class="navbar__menu__item" data-link = "#about">About</li>
@@ -37,19 +36,16 @@
         <li class="navbar__menu__item" data-link = "#testimonials">Testimonials</li>
         <li class="navbar__menu__item" data-link = "#contact">Contact</li>
       </ul>
-    </div>
-      
-    
-  </nav>
     <!--  Toggle button -->
-
   <button class="navbar__toggle-btn">
   <i class="fas fa-bars"></i>
 </button>
+</nav>
     <!-- Home -->
      <section id="home">
       <div class="home__container">
-      <img src="imgs/inyong.png" 
+      <img 
+      src="imgs/inyong.png" 
       alt="inyong's photo" 
       class="home__avatar"/>
       <h1 class="home__title">hello I'm<br/> Software engineer</h1>
@@ -72,7 +68,7 @@
         <div class="major__icon">
           <i class="fab fa-react"></i>
         </div>
-        <div class="major__title">Front-end</div>
+        <h class="major__title">Front-end</h>
         <div class="major__description">
           HTML, CSS, JavaScript
           <br/>React, Vue, Web APIS
@@ -82,24 +78,23 @@
         <div class="major__icon">
           <i class="fab fa-react"></i>
         </div>
-        <div class="major__title">Front-end</div>
-        <div class="major__description">
+        <h2 class="major__title">Front-end</h2>
+        <p class="major__description">
           HTML, CSS, JavaScript
           <br/>React, Vue, Web APIS
-        </div>
+        </p>
       </div>
       <div class="major">
         <div class="major__icon">
           <i class="fab fa-react"></i>
         </div>
-        <div class="major__title">Front-end</div>
-        <div class="major__description">
+        <h2 class="major__title">Front-end</h2>
+        <p class="major__description">
           HTML, CSS, JavaScript
           <br/>React, Vue, Web APIS
-        </div>
+        </p>
       </div>
     </div>
-    
     <div class="about__jobs">
       <div class="job">
         <img 
@@ -110,10 +105,8 @@
         <p class="job__name">HMI Engineer</p>
         <p class="job__period">2019.03.04~ -Until now</p>
         </div>
-        
       </div>
       <div class="job">
-        <div class="job">
           <img 
           src="imgs/jobs/hanwha.jpg"
           alt="hanwha"
@@ -122,9 +115,7 @@
             <p class="job__name">HMI Engineer</p>
             <p class="job__period">2019.03.04~ -Until now</p>
           </div>
-          
       </div>
-    </div>
   </section>
     <!-- skills -->
     <section id="skills"class="section">
@@ -184,17 +175,14 @@
               <div class="etc">
                 <h3 class="skillset__title">Etc</h3>
                 <ul class="etc__list">
-                  <li>
-                    <span>Git</span>
-                    <span>Scrum Master</span>
-                    <span>Math</span>
-                  </li>
+                  <li><span>Git</span></li>
+                  <li><span>Scrum master</span></li>
+                  <li><span>Math</span></li>
                 </ul>
               </div>
             </div>
         </div>
       </div>
-    
   </section>
     <!-- work -->
     <section id="work"class="section">
@@ -264,6 +252,7 @@
     </section>
     <!-- testimonial -->
     <section id="testimonials"class="section">
+    <div class="section__container">
       <h1>Testimonials</h1>
       <h3>See what they say about me</h3>
       <div class="testimonials">
@@ -294,6 +283,7 @@ dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
            alt="people"
            class="testimonial__avatar"
             />
+          </div>
         </div>
       </div>
     </section>
