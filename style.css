@@ -443,17 +443,17 @@ p {
   margin-left: 40px;
 }
 
-.testimonial__speech-bubble {
+.testimonial__speech-Bubble {
   padding: 18px;
   background-color: var(--color-white);
   border-radius: var(--size-border-radius);
 }
 
-.testimonial__speech-bubble p {
+.testimonial__speech-Bubble p {
   color: var(--color-light-grey);
 }
 
-.testimonial__speech-bubble a {
+.testimonial__speech-Bubble a {
   color: var(--color-pink);
 }
 
