@@ -109,6 +109,7 @@ p {
 
 #navbar.navbar--dark {
   background-color: var(--color-black);
+  height: 75px;
   padding: 8px;
 }
 
