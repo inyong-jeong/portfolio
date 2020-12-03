@@ -148,7 +148,7 @@ p {
 
 /* Home */
 #home {
-  background: url("imgs/homebackground.png") center/cover no-repeat;
+  background: url("imgs/homebackgrounds.jpg") center/cover no-repeat;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
@@ -163,7 +163,7 @@ p {
 
 .home__title,
 .home__description {
-  color: var(--color-black);
+  color: var(--color-white);
 }
 
 .home__contact {
@@ -266,6 +266,7 @@ p {
 
 .skillset__title {
   color: var(--color-white);
+  margin-bottom: 30px;
 }
 .skillset__left {
   flex-basis: 60%;
@@ -274,7 +275,7 @@ p {
 }
 
 .skill {
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 .skill__description {
   display: flex;
@@ -306,11 +307,12 @@ p {
 }
 
 /* Work */
-
 .work__categories {
   margin: 40px;
 }
-
+.git {
+  color: black;
+}
 .category__btn {
   border: 1px solid var(--color-dark-white);
   border-radius: var(--size-border-radius);

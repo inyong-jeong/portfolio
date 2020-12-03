@@ -10,7 +10,7 @@
     />
     <meta name="author" content="inyong" />
     <link rel="icon" type="image/png" href="imgs/angrycreative-brands.png" />
-    <script src="https://kit.fontawesome.com/46ac6e0061.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b5e24ba24b.js" crossorigin="anonymous"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -45,8 +45,13 @@
       src="imgs/projects/inyong.png" 
       alt="inyong's photo" 
       class="home__avatar"/>
-      <h1 class="home__title">hello I'm<br/> Software engineer</h1>
-      <h2 class="home__description"> A HMi Engineer currently studying web development</h2>
+      <h1 class="home__title">안녕하세요<br/> 신입 프론트엔드 지원자 입니다.</h1>
+      <!-- <video controls width="250">
+        <source src="/imgs/kaka.mp4"
+                type="video/mp4">
+      </video> -->
+    
+      <!-- <h2 class="home__description">currently studying web development</h2> -->
       <button class="home__contact">Contact Me</button>
     </div>
     </section>
@@ -55,11 +60,8 @@
     <section id="about" class="section section__container">
     <h1>About Me</h1>
     <p>
-
-      신입 프론트엔드 지원자 정인용입니다.<br/>
-      항상 배움의 자세를 가지고 있으며 본인이 모르는 부분이 있으면 완벽하게 자기 것으로 
-      만들 때까지 계속 파고드는 지원자 입니다.<br/> 아래 3가지 부분이 최근 중점적으로 공부하는 내용입니다.
-
+      이전 직장에서 업무의 대부분이 외주업체 관리, 서류 정리, 견적서 작성이었습니다. 그외 Javascript를 사용해서 고객사 웹페이지 유지보수를 하였지만, 
+      기술적인 성장성에 한계를 느껴 퇴사를 결심했습니다. 연봉은 회사내규에 따르는 신입 or 인턴연봉을 준수하겠습니다. <br/> 아래 3가지 부분이 최근 중점적으로 공부하는 내용입니다.
     </p>
     
     <div class="about__majors">
@@ -88,7 +90,7 @@
         </div>
         <h2 class="major__title">JS</h2>
         <p class="major__description">
-          
+          Vanilla JS, React.JS(Router,hook)
         </p>
       </div>
     </div>
@@ -108,35 +110,35 @@
     <section id="skills"class="section">
       <div class="section__container">
         <h1>Skills</h1>
-        <h2>skills & Attribute</h2>
+        <h2>skills & Attribute <br/> 포트폴리오 기능을 구현할 때 사용한 기술입니다.</h2>
         <div class="skillset">
             <div class="skillset__left">
               <h3 class="skillset__title">Skills</h3>
               <div class="skill">
                 <div class="skill__description">
-                  <span>HTML</span>
-                  <span>40%</span>
+                  <span>Front-end: React (create-react-app), Redux</span>
+                  <span></span>
                 </div>
                 <div class="skill__bar">
-                  <div class="skill__value"style ="width: 50%;"></div>
+                  <div class="skill__value"style ="width: 12%;"></div>
                 </div>
               </div>
               <div class="skill">
                 <div class="skill__description">
-                  <span>CSS</span>
-                  <span>40%</span>
+                  <span>Back-end: express-Node.js</span>
+                  <span></span>
                 </div>
                 <div class="skill__bar">
-                  <div class="skill__value"style ="width: 50%;"></div>
+                  <div class="skill__value"style ="width: 12%;"></div>
                 </div>
               </div>
               <div class="skill">
                 <div class="skill__description">
-                  <span>JS</span>
-                  <span>35%</span>
+                  <span>DataBase: MongoDB</span>
+                  <span></span>
                 </div>
                 <div class="skill__bar">
-                  <div class="skill__value"style ="width: 45%;"></div>
+                  <div class="skill__value"style ="width: 12%;"></div>
                 </div>
               </div>
             </div>
@@ -145,13 +147,18 @@
                 <h3 class="skillset__title">Tools</h3>
                 <ul class="tools list">
                   <li><span>visual studio code</span></li>
+                  <li><span>Postman</span></li>
+                  <li><span>Git&Github</span></li>
+                  <li><span>photoshop</span></li>
+                  <li><span>Adobe Rush</span></li>
+
                 </ul>
               </div>
               <div class="etc">
                 <h3 class="skillset__title">Etc</h3>
                 <ul class="etc__list">
-                  <li><span>Math</span></li>
                   <li><span>Excel</span></li>
+                  <li><span>slack, Notion</span></li>
                 </ul>
               </div>
             </div>
@@ -162,55 +169,35 @@
     <section id="work"class="section">
       <div class="section__container">       
       <h1>MY work</h1>
-      <h3>projects</h3>
+      <h3>개인 project</h3>
+      <video controls width="400" height="400" class ="video">
+        <source src="/imgs/video.mp4"
+                type="video/mp4"
+                >
+      </video>
+      <p>github 주소:
+        <a class ="git" href="https://github.com/inyong-jeong/InyongTube" target="blank">https://github.com/inyong-jeong/InyongTube</a>
+      </p>
       <!-- alt+shift+마우스 드래스=커서 여러개 -->
-      <div class="work__categories">                                 
+      <!-- <div class="work__categories">                                 
         <button class="category__btn selected" data-filter="*">
-          All<sapn class="category__count">5</sapn>
+          All<sapn class="category__count">3</sapn>
         </button>
-        <button class="category__btn" data-filter="front-end">
-          HTML&CSS&JS<sapn class="category__count">3</sapn>
+        <button class="category__btn" data-filter="To-do_List">
+          To-do_List<sapn class="category__count">1</sapn>
         </button>
-        <button class="category__btn" data-filter="back-end">
-          Vanilla JS<sapn class="category__count">1</sapn>
+        <button class="category__btn" data-filter="Fun_Game">
+          Fun_Game<sapn class="category__count">1</sapn>
         </button>
-        <button class="category__btn" data-filter="mobile">
-          Python<sapn class="category__count">1</sapn>
+        <button class="category__btn" data-filter="Latest_Movie">
+          Latest_Movie<sapn class="category__count">1</sapn>
         </button>
       </div>
       <div class="work__projects">
-        <a href="https://inyong-jeong.github.io/portfolios/" 
+      <a href="https://inyong-jeong.github.io/Carrot_Game/" 
         class="project"
         target="blank"
-        data-type="front-end"
-        >
-        <img
-        class="project__img"
-        src="imgs/projects/portfolio.PNG" 
-        alt="inyong">
-        <div class="project__description">
-          <h3>Github site</h3>
-          <span>inyong's portFolio</span>
-        </div>
-      </a>
-      <a href="https://inyong-jeong.github.io/ShoppingMall/" 
-        class="project"
-        target="blank"
-        data-type="front-end"
-        >
-        <img
-        class="project__img"
-        src="imgs/projects/ShoppingMall.PNG" 
-        alt="inyong">
-        <div class="project__description">
-          <h3>Github site</h3>
-          <span>ShoppingMall list</span>
-        </div>
-      </a>
-      <a href="https://inyong-jeong.github.io/Carrot_Game_JS/" 
-        class="project"
-        target="blank"
-        data-type="front-end"
+        data-type="Fun_Game"
         >
         <img
         class="project__img"
@@ -224,7 +211,7 @@
       <a href="https://inyong-jeong.github.io/Js-chorme/" 
         class="project"
         target="blank"
-        data-type="back-end"
+        data-type="To-do_List"
         >
         <img
         class="project__img"
@@ -235,21 +222,22 @@
           <span>Vanilla Js project</span>
         </div>
       </a>
-      <a href="https://github.com/inyong-jeong/pygame_project" 
+      <a href="https://inyong-jeong.github.io/Js-chorme/" 
         class="project"
         target="blank"
-        data-type="mobile"
+        data-type="Latest_Movie"
         >
         <img
         class="project__img"
-        src="imgs/projects/pygame.PNG" 
+        src="imgs/projects/JS_Chorme.PNG" 
         alt="inyong">
         <div class="project__description">
           <h3>Github site</h3>
-          <span>Pygame</span>
+          <span>Vanilla Js project</span>
         </div>
+  
       </a>
-      </div>
+      </div> -->
       </div>
     </section>
     <!-- testimonial -->
@@ -259,11 +247,11 @@
       <h3>See what they say about me</h3>
       <div class="testimonials">
         <div class="testimonial">
-          <img
+          <!-- <img
           src="imgs/testimonial/people2.jpg"
           alt="people"
           class="testimonial__avatar"
-            />
+            /> -->
             <div class="testimonial__speech-Bubble">
               <p> 입사하자마자 큰 프로젝트를 같이 진행했습니다. 힘든 일 궂은일을 지시해도
                 내색하지 않고 꿋꿋하게 본인이 맡은 역할을 해나아갔습니다. 정인용사원은 팀내 막내여서 걱정했지만, 
@@ -284,11 +272,11 @@
               <p class="name"><a href="">현태환</a> / 사원</p>
               <h3>SI 사업부 디스플레이 사업팀 3그룹</h3>
             </div>
-            <img
+            <!-- <img
             src="imgs/testimonial/people1.jpg"
             alt="people"
             class="testimonial__avatar"
-            />
+            /> -->
           </div>
         </div>
       </div>
@@ -301,9 +289,9 @@
         <a href="https://github.com/inyong-jeong/portfolio" target = "blank">
           <i class="fab fa-github"></i>
         </a>
-      <a href="#" target = "blank">
+      <!-- <a href="#" target = "blank">
         <i class="fa fa-linkedin-square"></i>
-      </a>
+      </a> -->
     </div>
     <p class="contact__rights">2020 inyong - All rights reserved
     </p>
